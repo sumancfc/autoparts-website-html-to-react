@@ -1018,10 +1018,7 @@ blockquote-title,
   }
 }
 
-/*--------------------------------
-Scroll Top Button
-----------------------------------*/
-.btn-scroll-top {
+.styles_scroll-to-top__2A70v {
   background-color: #eeb644;
   border-radius: 50%;
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
@@ -1033,34 +1030,13 @@ Scroll Top Button
   text-align: center;
   line-height: 50px;
   position: fixed;
-  bottom: -50px;
   right: 30px;
   height: 50px;
   width: 50px;
   z-index: 999;
-  opacity: 0;
-  visibility: hidden;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
-}
-
-@media only screen and (max-width: 767.98px) {
-  .btn-scroll-top {
-    line-height: 40px;
-    height: 40px;
-    width: 40px;
-  }
-}
-
-.btn-scroll-top:hover {
-  background-color: #1b1b1c;
-}
-
-.btn-scroll-top.show {
-  bottom: 30px;
-  opacity: 1;
-  visibility: visible;
 }
 
 .slider-slide-item {
