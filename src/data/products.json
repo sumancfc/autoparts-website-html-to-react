@@ -1,0 +1,170 @@
+[
+  {
+    "id": "1",
+    "sku": "asdf218",
+    "name": "Lorem ipsum auto part one",
+    "price": 16.4,
+    "discount": 10,
+    "new": true,
+    "rating": 5,
+    "saleCount": 20,
+    "category": ["auto parts"],
+    "tag": ["auto parts"],
+    "stock": 15,
+    "image": [
+      "/assets/img/product/product-1.jpg",
+      "/assets/img/product/product-2.jpg",
+      "/assets/img/product/product-3.jpg",
+      "/assets/img/product/product-4.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "2",
+    "sku": "asdf219",
+    "name": "Lorem ipsum auto part two",
+    "price": 26.5,
+    "discount": 0,
+    "new": false,
+    "rating": 4,
+    "saleCount": 10,
+    "category": ["auto parts"],
+    "tag": ["auto parts"],
+    "stock": 10,
+    "image": [
+      "/assets/img/product/product-4.jpg",
+      "/assets/img/product/product-5.jpg",
+      "/assets/img/product/product-6.jpg",
+      "/assets/img/product/product-7.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "3",
+    "sku": "asdf220",
+    "name": "Lorem ipsum auto part three",
+    "price": 14.2,
+    "discount": 30,
+    "new": true,
+    "rating": 3,
+    "saleCount": 30,
+    "category": ["auto parts"],
+    "tag": ["auto parts"],
+    "stock": 13,
+    "image": [
+      "/assets/img/product/product-8.jpg",
+      "/assets/img/product/product-9.jpg",
+      "/assets/img/product/product-10.jpg",
+      "/assets/img/product/product-11.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "4",
+    "sku": "asdf221",
+    "name": "Lorem ipsum auto part four",
+    "price": 6.4,
+    "discount": 0,
+    "new": false,
+    "rating": 2,
+    "saleCount": 10,
+    "category": ["auto parts"],
+    "tag": ["auto parts"],
+    "stock": 5,
+    "image": [
+      "/assets/img/product/product-12.jpg",
+      "/assets/img/product/product-13.jpg",
+      "/assets/img/product/product-14.jpg",
+      "/assets/img/product/product-15.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "5",
+    "sku": "asdf218",
+    "name": "Lorem ipsum auto part five",
+    "price": 16.4,
+    "discount": 10,
+    "new": true,
+    "rating": 5,
+    "saleCount": 20,
+    "category": ["auto parts"],
+    "tag": ["auto parts"],
+    "stock": 15,
+    "image": [
+      "/assets/img/product/product-1.jpg",
+      "/assets/img/product/product-2.jpg",
+      "/assets/img/product/product-3.jpg",
+      "/assets/img/product/product-4.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "6",
+    "sku": "asdf219",
+    "name": "Lorem ipsum auto part six",
+    "price": 26.5,
+    "discount": 0,
+    "new": false,
+    "rating": 4,
+    "saleCount": 10,
+    "category": ["auto parts"],
+    "tag": ["auto parts"],
+    "stock": 10,
+    "image": [
+      "/assets/img/product/product-4.jpg",
+      "/assets/img/product/product-5.jpg",
+      "/assets/img/product/product-6.jpg",
+      "/assets/img/product/product-7.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "7",
+    "sku": "asdf220",
+    "name": "Lorem ipsum auto part seven",
+    "price": 14.2,
+    "discount": 30,
+    "new": true,
+    "rating": 3,
+    "saleCount": 30,
+    "category": ["auto parts"],
+    "tag": ["auto parts"],
+    "stock": 13,
+    "image": [
+      "/assets/img/product/product-8.jpg",
+      "/assets/img/product/product-9.jpg",
+      "/assets/img/product/product-10.jpg",
+      "/assets/img/product/product-11.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "8",
+    "sku": "asdf221",
+    "name": "Lorem ipsum auto part eight",
+    "price": 6.4,
+    "discount": 0,
+    "new": false,
+    "rating": 2,
+    "saleCount": 10,
+    "category": ["auto parts"],
+    "tag": ["auto parts"],
+    "stock": 5,
+    "image": [
+      "/assets/img/product/product-12.jpg",
+      "/assets/img/product/product-13.jpg",
+      "/assets/img/product/product-14.jpg",
+      "/assets/img/product/product-15.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  }
+]
