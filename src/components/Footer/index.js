@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../Logo";
 
 const Footer = () => {
   return (
@@ -11,9 +12,7 @@ const Footer = () => {
             <div className='col-lg-3'>
               <div className='widget-item'>
                 <div className='about-widget'>
-                  <Link to='/'>
-                    <img src='img/logo-light.png' alt='Logo' />
-                  </Link>
+                  <Logo imageName='logo-light' />
                   <p>
                     Lukas is the best parts shop for your car accessories. What
                     kind of parts do you need you can get here soluta nobis

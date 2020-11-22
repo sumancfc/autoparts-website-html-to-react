@@ -45,7 +45,7 @@ const HeroSlider = () => {
             <div
               className='slider-slide-item bg-img'
               style={{
-                backgroundImage: `url(img/${item.bg})`,
+                backgroundImage: `url(assets/img/${item.bg})`,
               }}
             >
               <div className='container container-wide h-100'>

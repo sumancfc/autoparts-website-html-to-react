@@ -12,7 +12,7 @@ const Contact = () => {
                 <div className='col-sm-6 col-lg-4'>
                   <div className='contact-info-item'>
                     <div className='con-info-icon'>
-                      <i className='ion-ios-location-outline'></i>
+                      <i className='fa fa-map-marker'></i>
                     </div>
                     <div className='con-info-txt'>
                       <h4>Our Location</h4>
@@ -26,7 +26,7 @@ const Contact = () => {
                 <div className='col-sm-6 col-lg-4'>
                   <div className='contact-info-item'>
                     <div className='con-info-icon'>
-                      <i className='ion-iphone'></i>
+                      <i className='fa fa-phone'></i>
                     </div>
                     <div className='con-info-txt'>
                       <h4>Contact us Anytime</h4>
@@ -41,7 +41,7 @@ const Contact = () => {
                 <div className='col-sm-6 col-lg-4'>
                   <div className='contact-info-item'>
                     <div className='con-info-icon'>
-                      <i className='ion-ios-email-outline'></i>
+                      <i className='fa fa-envelope'></i>
                     </div>
                     <div className='con-info-txt'>
                       <h4>Write Some Words</h4>
@@ -53,7 +53,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className='contact-form-wrapper sm-top'>
+          <div className='contact-form-wrapper sm-top mb-60'>
             <div className='container'>
               <div className='row'>
                 <div className='col-12'>
@@ -70,7 +70,7 @@ const Contact = () => {
                           <div className='row'>
                             <div className='col-md-6'>
                               <div className='input-item'>
-                                <label className='sr-only' for='name'>
+                                <label className='sr-only' htmlFor='name'>
                                   name
                                 </label>
                                 <input
@@ -85,7 +85,7 @@ const Contact = () => {
 
                             <div className='col-md-6'>
                               <div className='input-item'>
-                                <label className='sr-only' for='email'>
+                                <label className='sr-only' htmlFor='email'>
                                   email
                                 </label>
                                 <input
@@ -100,7 +100,7 @@ const Contact = () => {
 
                             <div className='col-12'>
                               <div className='input-item'>
-                                <label className='sr-only' for='subject'>
+                                <label className='sr-only' htmlFor='subject'>
                                   subject
                                 </label>
                                 <input
@@ -115,7 +115,7 @@ const Contact = () => {
 
                             <div className='col-12'>
                               <div className='input-item'>
-                                <label className='sr-only' for='message'>
+                                <label className='sr-only' htmlFor='message'>
                                   message
                                 </label>
                                 <textarea

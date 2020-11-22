@@ -33,7 +33,7 @@ function IconGroup() {
             <div className='mini-product'>
               <div className='mini-product__thumb'>
                 <Link to='/'>
-                  <img src='img/product/product-1.png' alt='product' />
+                  <img src='assets/img/product/product-1.png' alt='product' />
                 </Link>
               </div>
               <div className='mini-product__info'>

@@ -1,6 +1,8 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
+import { ToastProvider } from "react-toast-notifications";
+import { connect } from "react-redux";
 import About from "../pages/About";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
@@ -12,7 +14,7 @@ import Wishlist from "../pages/Wishlist";
 
 const App = () => {
   return (
-    <>
+    <ToastProvider placement='top-right'>
       <ScrollToTop smooth color='#fff' />
       <Switch>
         <Route path='/about' exact component={About} />
@@ -24,8 +26,8 @@ const App = () => {
         <Route path='/shop' exact component={Shop} />
         <Route path='/' exact component={Home} />
       </Switch>
-    </>
+    </ToastProvider>
   );
 };
 
-export default App;
+export default connect()(App);
