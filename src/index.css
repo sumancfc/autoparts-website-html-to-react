@@ -565,7 +565,7 @@ blockquote-title,
 }
 
 .site-action .login-reg-nav li:after {
-  content: "|";
+  content: "";
   position: absolute;
   right: -20px;
   top: 0;
@@ -591,6 +591,10 @@ blockquote-title,
   margin-left: 60px;
 }
 
+.btn-mini-wishlist {
+  margin-left: 14px;
+}
+
 @media only screen and (max-width: 767.98px),
   only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .mini-cart-wrap {
@@ -598,14 +602,16 @@ blockquote-title,
   }
 }
 
-.mini-cart-wrap .btn-mini-cart {
+.mini-cart-wrap .btn-mini-cart,
+.login-reg-nav li a.btn-mini-wishlist {
   font-size: 25px;
   line-height: 1;
   position: relative;
   color: #1b1b1c;
 }
 
-.mini-cart-wrap .btn-mini-cart .cart-total {
+.mini-cart-wrap .btn-mini-cart .cart-total,
+.login-reg-nav li a.btn-mini-wishlist .wishlist-total {
   background-color: #1b1b1c;
   border-radius: 50%;
   color: #ffffff;
@@ -618,6 +624,10 @@ blockquote-title,
   position: absolute;
   left: -10px;
   top: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .mini-cart-wrap .mini-cart-content {
@@ -756,9 +766,6 @@ blockquote-title,
   }
 }
 
-/*=============================
-4.1 - Site Navigation Style
-==============================*/
 @media only screen and (min-width: 1200px) {
   .main-menu {
     -webkit-box-pack: center;
@@ -773,6 +780,7 @@ blockquote-title,
 }
 
 .main-menu li.has-submenu .sub-menu {
+  position: absolute;
   background-color: #ffffff;
   padding: 20px 20px;
   position: absolute;
@@ -786,7 +794,6 @@ blockquote-title,
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
-  pointer-events: none;
   margin-top: 34px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -794,6 +801,14 @@ blockquote-title,
   width: 230px;
   z-index: 9999;
   left: 0;
+}
+
+.main-menu li:hover.has-submenu .sub-menu {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  opacity: 1;
+  visibility: visible;
 }
 
 .main-menu li.has-submenu .sub-menu:before {
@@ -829,112 +844,10 @@ blockquote-title,
   color: #eeb644;
 }
 
-.main-menu li.has-submenu:hover .sub-menu {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: visible;
-}
-
 .main-menu li:hover a {
   color: #eeb644;
 }
 
-/* Responsive Mobile Menu */
-.mobile-menu {
-  margin: 0 -10px;
-}
-
-.mobile-menu.res-mobile-menu {
-  min-height: 310px;
-  overflow: auto;
-}
-
-.mobile-menu .slicknav_btn {
-  display: none;
-}
-
-.mobile-menu .slicknav_menu {
-  padding: 0;
-}
-
-.mobile-menu .slicknav_nav {
-  background-color: #ffffff;
-  display: block !important;
-  padding: 0 30px 20px;
-}
-
-.mobile-menu .slicknav_nav li {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  position: relative;
-}
-
-.mobile-menu .slicknav_nav li:last-child {
-  border-bottom: 0;
-}
-
-.mobile-menu .slicknav_nav li a {
-  color: #303030;
-  font-size: 16px;
-  padding: 6px 0;
-  margin: 0;
-  text-transform: capitalize;
-  position: relative;
-}
-
-.mobile-menu .slicknav_nav li a .slicknav_arrow {
-  background-color: transparent;
-  color: #303030;
-  font-size: 15px;
-  display: block;
-  text-align: center;
-  margin: 0;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.mobile-menu .slicknav_nav li a a {
-  padding: 0;
-}
-
-.mobile-menu .slicknav_nav li a:hover {
-  color: #eeb644;
-  background-color: transparent;
-}
-
-.mobile-menu .slicknav_nav li img {
-  display: none;
-}
-
-.mobile-menu .slicknav_nav li ul {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  margin: 0;
-  padding-left: 10px;
-}
-
-.mobile-menu .slicknav_nav li ul li a {
-  font-size: 13px;
-  color: rgba(0, 0, 0, 0.7);
-  padding: 8px 0;
-}
-
-.mobile-menu .slicknav_nav .slicknav_open > .slicknav_item {
-  position: relative;
-}
-
-.mobile-menu .slicknav_nav .slicknav_open > .slicknav_item .slicknav_arrow {
-  color: #eeb644;
-}
-
-/*===========================
-23. Footer Style CSS
-===========================*/
 .footer-area .footer-widget-area {
   background-color: #1b1b1c;
   padding: 100px 0;
@@ -2026,9 +1939,8 @@ blockquote-title,
   z-index: 1;
 }
 
-/*============================
-13. Off Canvas Style CSS
-=============================*/
+/* Responsive Mobile Menu */
+
 .off-canvas-wrapper {
   position: fixed;
   left: 0;
@@ -2042,6 +1954,8 @@ blockquote-title,
   height: 100vh;
   width: 100vw;
   z-index: 9999;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
 }
 
 .off-canvas-wrapper.active {
@@ -2054,6 +1968,8 @@ blockquote-title,
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
+  -moz-transform: none;
+  -o-transform: none;
 }
 
 .off-canvas-wrapper.active .btn-close {
@@ -2091,14 +2007,11 @@ blockquote-title,
 
 .off-canvas-overlay {
   background-color: rgba(0, 0, 0, 0.8);
-  /* cursor: url("../img/icons/cancel-white.png"), auto; */
   position: absolute;
   left: 0;
   top: 0;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
   transition: 0.4s;
   height: 100%;
   width: 100%;
@@ -2167,6 +2080,87 @@ blockquote-title,
   justify-content: space-between;
   padding: 0 20px 15px;
   margin-bottom: 15px;
+}
+
+.mobile-menu {
+  margin: 0 -10px;
+}
+
+.mobile-menu.res-mobile-menu {
+  min-height: 310px;
+  overflow: auto;
+}
+
+.mobile-menu .main-menu {
+  background-color: #ffffff;
+  display: block !important;
+  padding: 0 30px 20px;
+}
+
+.mobile-menu .main-menu li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.mobile-menu .main-menu li a {
+  display: block;
+  color: #303030;
+  font-size: 16px;
+  /* padding: 6px 0; */
+  margin: 0;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.main-menu li.has-submenu .sub-menu.opensubmenu {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  opacity: 1;
+  visibility: visible;
+  position: relative;
+  padding: 10px 0;
+  margin: 10px 0 0;
+}
+
+.mobile-menu .main-menu .has-submenu .sub-menu li:last-child {
+  border-bottom: 0;
+}
+
+/* .mobile-menu .main-menu .has-submenu a .plus-arrow {
+  background-color: transparent;
+  color: #303030;
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
+
+.plus-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: auto;
+  right: 15px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  font: bold 16px/34px monospace !important;
+  text-align: center;
+  text-shadow: none;
+  border-radius: 4px;
+}
+
+.plus-arrow:before {
+  content: "\F107";
+  font-family: FontAwesome;
+  position: absolute;
 }
 
 /*========================

@@ -194,7 +194,7 @@ const Shop = () => {
 
                   <div className='col-sm-6'>
                     <div className='sort-by-wrapper'>
-                      <label for='sort' className='sr-only'>
+                      <label htmlFor='sort' className='sr-only'>
                         Sort By
                       </label>
                       <select name='sort' id='sort'>

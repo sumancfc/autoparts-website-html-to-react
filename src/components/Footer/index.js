@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     // <!--== Start Footer Area Wrapper ==-->
-    <footer class='footer-area'>
-      <div class='footer-widget-area'>
-        <div class='container container-wide'>
-          <div class='row mtn-40'>
-            <div class='col-lg-3'>
-              <div class='widget-item'>
-                <div class='about-widget'>
+    <footer className='footer-area'>
+      <div className='footer-widget-area'>
+        <div className='container container-wide'>
+          <div className='row mtn-40'>
+            <div className='col-lg-3'>
+              <div className='widget-item'>
+                <div className='about-widget'>
                   <Link to='/'>
                     <img src='img/logo-light.png' alt='Logo' />
                   </Link>
@@ -22,11 +22,11 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class='col-sm-6 col-lg-2'>
-              <div class='widget-item'>
-                <h4 class='widget-title'>Information</h4>
-                <div class='widget-body'>
-                  <ul class='widget-list'>
+            <div className='col-sm-6 col-lg-2'>
+              <div className='widget-item'>
+                <h4 className='widget-title'>Information</h4>
+                <div className='widget-body'>
+                  <ul className='widget-list'>
                     <li>
                       <Link to='#'>Our company</Link>
                     </li>
@@ -47,11 +47,11 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class='col-sm-6 col-lg-2'>
-              <div class='widget-item'>
-                <h4 class='widget-title'>Quicklink</h4>
-                <div class='widget-body'>
-                  <ul class='widget-list'>
+            <div className='col-sm-6 col-lg-2'>
+              <div className='widget-item'>
+                <h4 className='widget-title'>Quicklink</h4>
+                <div className='widget-body'>
+                  <ul className='widget-list'>
                     <li>
                       <Link to='/about-us'>About</Link>
                     </li>
@@ -72,11 +72,11 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class='col-sm-6 col-lg-2'>
-              <div class='widget-item'>
-                <h4 class='widget-title'>Support</h4>
-                <div class='widget-body'>
-                  <ul class='widget-list'>
+            <div className='col-sm-6 col-lg-2'>
+              <div className='widget-item'>
+                <h4 className='widget-title'>Support</h4>
+                <div className='widget-body'>
+                  <ul className='widget-list'>
                     <li>
                       <Link to='#'>Blog</Link>
                     </li>
@@ -97,10 +97,10 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class='col-sm-6 col-lg-3'>
-              <div class='widget-item'>
-                <h4 class='widget-title'>Store Information</h4>
-                <div class='widget-body'>
+            <div className='col-sm-6 col-lg-3'>
+              <div className='widget-item'>
+                <h4 className='widget-title'>Store Information</h4>
+                <div className='widget-body'>
                   <address>
                     2005 Stokes Isle Apartment. 896, Washington 10010, USA
                     <br />
@@ -114,11 +114,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class='footer-copyright-area'>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-12 text-center'>
-              <div class='copyright-content'>
+      <div className='footer-copyright-area'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-12 text-center'>
+              <div className='copyright-content'>
                 <p>
                   &copy; {new Date().getFullYear()} Lukas. All Rights Reserved.
                 </p>
